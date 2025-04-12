@@ -39,8 +39,8 @@ namespace WebApplication1.Services
 
                 var smtpServer = smtpSettings["Server"];
                 var smtpPort = int.Parse(smtpSettings["Port"]);
-                var smtpUsername = smtpSettings["Username"];
-                var smtpPassword = smtpSettings["Password"];
+                var smtpUsername = smtpSettings[""];
+                var smtpPassword = smtpSettings[""];
                 var fromEmail = smtpSettings["FromEmail"];
                 var fromName = smtpSettings["FromName"];
                 var enableSsl = bool.Parse(smtpSettings["EnableSsl"] ?? "true");

@@ -45,17 +45,13 @@ namespace WebApplication1.Services
 
                 // Ensure DateTime is in UTC
                 order.OrderDate = DateTime.SpecifyKind(DateTime.UtcNow, DateTimeKind.Utc);
-                order.TotalAmount = 0;
 
+                // Update product quantities
                 foreach (var item in order.OrderItems)
                 {
                     var product = await _context.Products.FindAsync(item.ProductId);
                     if (product != null)
                     {
-                        item.UnitPrice = product.Price;
-                        order.TotalAmount += item.UnitPrice * item.Quantity;
-
-                        // Update product quantity
                         product.QuantityInStock -= item.Quantity;
                     }
                 }

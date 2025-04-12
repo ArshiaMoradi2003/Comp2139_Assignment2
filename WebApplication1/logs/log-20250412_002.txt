@@ -1,0 +1,17 @@
+2025-04-12 16:14:05.433 -04:00 [INF] Attempting to register user with email: arshiamoradi1203@gmail.com
+2025-04-12 16:14:05.776 -04:00 [INF] User arshiamoradi1203@gmail.com created successfully.
+2025-04-12 16:14:06.048 -04:00 [INF] User arshiamoradi1203@gmail.com assigned to RegularUser role.
+2025-04-12 16:14:07.759 -04:00 [ERR] ❌ Failed to send dev email to arshiamoradi1203@gmail.com
+MailKit.Security.AuthenticationException: 535: Authentication failed
+ ---> MailKit.Net.Smtp.SmtpCommandException: Authentication failed
+   --- End of inner exception stack trace ---
+   at MailKit.Net.Smtp.SmtpClient.AuthenticateAsync(Encoding encoding, ICredentials credentials, CancellationToken cancellationToken)
+   at WebApplication1.Services.DevEmailService.SendEmailAsync(String to, String subject, String body) in C:\بگایی\Comp2139_Assignment2-main\WebApplication1\Services\DevEmailService.cs:line 38
+2025-04-12 16:14:07.769 -04:00 [ERR] Failed to send verification email to arshiamoradi1203@gmail.com.
+2025-04-12 16:15:34.234 -04:00 [INF] Attempting to register user with email: arshiamoradi1203@gmail.com
+2025-04-12 16:15:34.400 -04:00 [ERR] Failed to create user arshiamoradi1203@gmail.com:
+2025-04-12 16:15:34.402 -04:00 [ERR] - Username 'arshiamoradi1203@gmail.com' is already taken.
+2025-04-12 16:15:45.210 -04:00 [INF] Login attempt for user: arshiamoradi1203@gmail.com
+2025-04-12 16:15:45.523 -04:00 [INF] User arshiamoradi1203@gmail.com logged in successfully.
+2025-04-12 16:15:45.655 -04:00 [INF] User arshiamoradi1203@gmail.com has Admin role: False
+2025-04-12 16:15:48.809 -04:00 [INF] User logged out.

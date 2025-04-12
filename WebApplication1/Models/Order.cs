@@ -20,7 +20,6 @@ namespace WebApplication1.Models
         public DateTime OrderDate { get; set; }
 
         [Required]
-        [Range(0.01, double.MaxValue, ErrorMessage = "Total amount must be greater than 0")]
         [Column(TypeName = "decimal(18,2)")]
         public decimal TotalAmount { get; set; }
 

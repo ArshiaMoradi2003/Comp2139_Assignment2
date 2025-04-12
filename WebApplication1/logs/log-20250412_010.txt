@@ -1,0 +1,7 @@
+2025-04-12 17:03:52.958 -04:00 [INF] Order created successfully with ID: 1
+2025-04-12 17:03:53.026 -04:00 [INF] Order created successfully with ID: 1
+2025-04-12 17:03:54.476 -04:00 [INF] Order created successfully with ID: 2
+2025-04-12 17:03:54.496 -04:00 [INF] Order created successfully with ID: 2
+2025-04-12 17:03:55.389 -04:00 [INF] Order created successfully with ID: 3
+2025-04-12 17:03:55.391 -04:00 [INF] Order created successfully with ID: 3
+2025-04-12 17:04:13.827 -04:00 [INF] Order deleted successfully with ID: 1

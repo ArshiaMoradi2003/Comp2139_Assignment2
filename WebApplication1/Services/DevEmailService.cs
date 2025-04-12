@@ -22,7 +22,7 @@ namespace WebApplication1.Services
             try
             {
                 // Manually create a test Ethereal account
-                var username = "magdalen.bauch@ethereal.email";
+                var username = "beaulah.ryan3@ethereal.email";
                 var password = "$$Am13811381$$";
                 var smtpHost = "smtp.ethereal.email";
                 var smtpPort = 587;

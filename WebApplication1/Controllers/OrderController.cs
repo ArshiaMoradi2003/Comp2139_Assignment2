@@ -48,7 +48,21 @@ namespace WebApplication1.Controllers
             {
                 // Set default values
                 order.OrderDate = DateTime.Now;
-                order.TotalAmount = 0;
+
+                // Calculate total amount before validation
+                if (order.OrderItems != null && order.OrderItems.Any())
+                {
+                    order.TotalAmount = 0;
+                    foreach (var item in order.OrderItems)
+                    {
+                        var product = await _context.Products.FindAsync(item.ProductId);
+                        if (product != null)
+                        {
+                            item.UnitPrice = product.Price;
+                            order.TotalAmount += item.UnitPrice * item.Quantity;
+                        }
+                    }
+                }
 
                 // Validate order items
                 if (order.OrderItems == null || !order.OrderItems.Any())

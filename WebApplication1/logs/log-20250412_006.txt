@@ -1,0 +1,17 @@
+2025-04-12 16:51:56.987 -04:00 [INF] Login attempt for user: admin@example.com
+2025-04-12 16:51:58.045 -04:00 [INF] User admin@example.com logged in successfully.
+2025-04-12 16:51:58.291 -04:00 [INF] User admin@example.com has Admin role: True
+2025-04-12 16:52:15.726 -04:00 [INF] Creating new product: asds
+2025-04-12 16:52:16.188 -04:00 [INF] Product created successfully: asds, ID: 7
+2025-04-12 16:52:21.992 -04:00 [INF] Deleting product with ID: 7
+2025-04-12 16:52:22.101 -04:00 [INF] Product deleted successfully: asds, ID: 7
+2025-04-12 16:52:36.333 -04:00 [WRN] Invalid model state when creating order: Total amount must be greater than 0
+2025-04-12 16:52:40.427 -04:00 [WRN] Invalid model state when creating order: Total amount must be greater than 0
+2025-04-12 16:52:52.661 -04:00 [WRN] Invalid model state when creating order: Total amount must be greater than 0
+2025-04-12 16:53:00.171 -04:00 [WRN] Invalid model state when creating order: Total amount must be greater than 0
+2025-04-12 16:53:03.756 -04:00 [WRN] Invalid model state when creating order: At least one order item is required., Total amount must be greater than 0
+2025-04-12 16:53:19.854 -04:00 [WRN] Invalid model state when creating order: Total amount must be greater than 0
+2025-04-12 16:53:36.444 -04:00 [WRN] Invalid model state when creating order: Total amount must be greater than 0
+2025-04-12 16:53:43.277 -04:00 [WRN] Invalid model state when creating order: Total amount must be greater than 0
+2025-04-12 16:54:07.917 -04:00 [WRN] Invalid model state when creating order: Total amount must be greater than 0
+2025-04-12 16:57:21.074 -04:00 [WRN] Invalid model state when creating order: Total amount must be greater than 0

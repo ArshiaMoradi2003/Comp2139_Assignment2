@@ -1,0 +1,14 @@
+2025-04-12 16:17:21.593 -04:00 [INF] Attempting to register user with email: beaulah.ryan3@ethereal.email
+2025-04-12 16:17:21.917 -04:00 [INF] User beaulah.ryan3@ethereal.email created successfully.
+2025-04-12 16:17:22.197 -04:00 [INF] User beaulah.ryan3@ethereal.email assigned to RegularUser role.
+2025-04-12 16:17:24.303 -04:00 [ERR] ❌ Failed to send dev email to beaulah.ryan3@ethereal.email
+MailKit.Security.AuthenticationException: 535: Authentication failed
+ ---> MailKit.Net.Smtp.SmtpCommandException: Authentication failed
+   --- End of inner exception stack trace ---
+   at MailKit.Net.Smtp.SmtpClient.AuthenticateAsync(Encoding encoding, ICredentials credentials, CancellationToken cancellationToken)
+   at WebApplication1.Services.DevEmailService.SendEmailAsync(String to, String subject, String body) in C:\بگایی\Comp2139_Assignment2-main\WebApplication1\Services\DevEmailService.cs:line 38
+2025-04-12 16:17:24.324 -04:00 [ERR] Failed to send verification email to beaulah.ryan3@ethereal.email.
+2025-04-12 16:20:05.745 -04:00 [INF] Login attempt for user: arshiamoradi1203@gmail.com
+2025-04-12 16:20:06.252 -04:00 [INF] User arshiamoradi1203@gmail.com logged in successfully.
+2025-04-12 16:20:06.362 -04:00 [INF] User arshiamoradi1203@gmail.com has Admin role: False
+2025-04-12 16:20:08.260 -04:00 [INF] User logged out.
